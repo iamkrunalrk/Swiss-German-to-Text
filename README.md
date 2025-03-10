@@ -51,20 +51,20 @@ Mathematically, the model learns to map audio features to class labels via a ser
    $$
 
 3. **Dense Layer**: A fully connected layer computes the weighted sum of inputs $x$ and applies an activation function:
-   
-   $$
-   y = f(Wx + b)
-   $$
+
+$$
+y = f(Wx + b)
+$$
 
    where $W$ is the weight matrix, $b$ is the bias, and $f$ is the activation function.
 
-4. **Softmax Activation**: The output layer applies the softmax function to produce probabilities for each class:
+5. **Softmax Activation**: The output layer applies the softmax function to produce probabilities for each class:
 
-   $$
-   P(y=i|x) = \frac{e^{z_i}}{\sum_{j} e^{z_j}}
-   $$
+$$
+P(y=i|x) = \frac{e^{z_i}}{\sum_{j} e^{z_j}}
+$$
 
-   where $z_i$ is the score for class $i$, and the denominator is the sum over all class scores.
+   where  $z_i$  is the score for class  $i$ , and the denominator is the sum over all class scores.
 
 ## Performance
 
