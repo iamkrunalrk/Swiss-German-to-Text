@@ -39,16 +39,16 @@ Mathematically, the model learns to map audio features to class labels via a ser
 
 1. **Convolution Operation**: The convolution operation $\mathcal{C}(I, K)$ applied to an input image $I$ with a filter kernel $K$:
 
-   $$
-   \mathcal{C}(I, K) = \sum_{i,j} I(i,j) \cdot K(i,j)
-   $$
+$$
+\mathcal{C}(I, K) = \sum_{i,j} I(i,j) \cdot K(i,j)
+$$
    This operation allows the network to detect spatial features in the audio spectrogram.
 
 2. **Pooling**: The pooling operation reduces the dimensionality of the feature maps by selecting the maximum value from a region:
    
-   $$
-   P = \max(I(x, y)) \quad \text{for each window in } I
-   $$
+$$
+P = \max(I(x, y)) \quad \text{for each window in } I
+$$
 
 3. **Dense Layer**: A fully connected layer computes the weighted sum of inputs $x$ and applies an activation function:
 
