@@ -42,7 +42,8 @@ Mathematically, the model learns to map audio features to class labels via a ser
 $$
 \mathcal{C}(I, K) = \sum_{i,j} I(i,j) \cdot K(i,j)
 $$
-   This operation allows the network to detect spatial features in the audio spectrogram.
+    
+  This operation allows the network to detect spatial features in the audio spectrogram.
 
 2. **Pooling**: The pooling operation reduces the dimensionality of the feature maps by selecting the maximum value from a region:
    
