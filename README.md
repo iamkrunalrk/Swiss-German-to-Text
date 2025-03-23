@@ -1,4 +1,4 @@
-# Transformer-Based Swiss German Translation System
+# Swiss German Translation System
 
 **SwissGermanToText** is a deep learning project that translates spoken Swiss German into text. In this projject, the model is trained using a convolutional neural network (CNN) to recognize spoken Swiss German.
 
